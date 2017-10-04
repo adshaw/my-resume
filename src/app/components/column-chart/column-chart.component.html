@@ -1,0 +1,51 @@
+<!-- <div class="container"> -->
+<div class="row">
+  <div class="col-12">
+    <!-- //.text-center -->
+
+    <div class="column-chart">
+      <!-- <div class="legend legend-left hidden-xs">
+        <h3 class="legend-title">ME</h3>
+      </div> -->
+      <!-- //.legend -->
+
+      <!-- <div class="legend legend-right hidden-xs">
+        <div class="item">
+          <h4>Superhero</h4>
+        </div>
+
+        <div class="item">
+          <h4>Preety Good</h4>
+        </div>
+
+        <div class="item">
+          <h4>Good</h4>
+        </div>
+
+        <div class="item">
+          <h4>Newbie</h4>
+        </div>
+      </div> -->
+      <!-- //.legend -->
+
+      <div class="chart clearfix">
+        <div class="item" [style.width.%]="columnWidth" *ngFor="let obj of columnObj; let i = index; trackBy: updateHeightAndWidth">
+          <div class="bar">
+            <span class="percent">{{obj.skill}}%</span>
+
+            <div class="item-progress" data-percent="obj.skill" [style.height.px]="obj.height">
+              <span class="title">{{obj.name}}</span>
+            </div>
+            <!-- //.item-progress -->
+          </div>
+          <!-- //.bar -->
+        </div>
+      </div>
+      <!-- //.chart -->
+    </div>
+    <!-- //.column-chart -->
+  </div>
+  <!-- //.col-md-6 -->
+</div>
+<!-- //.row -->
+<!-- </div> -->

@@ -1,0 +1,71 @@
+h2.header-title {
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-size: 22px;
+  padding-top: 12px;
+}
+
+.resume-content {
+  padding: 30px;
+}
+
+.resume-profile {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.border-section {
+  height: 342px;
+  margin-top: 56px;
+  border: 2px solid #000;
+}
+
+.expertise-chart h2 {
+  position: absolute;
+  top: -7%;
+  left: 26%;
+  height: 50px;
+  background-color: black;
+  width: 48%;
+  color: white;
+  padding-top: 13px;
+  font-size: 22px;
+  z-index: 21;
+}
+
+.my-education {
+  padding-top: 55px;
+}
+
+.my-education h2 {
+  position: absolute;
+  top: 8%;
+  left: 33%;
+  height: 50px;
+  background-color: black;
+  width: 35%;
+  color: white;
+  padding-top: 13px;
+  font-size: 22px;
+}
+
+.eduYear span {
+  font-weight: bold;
+}
+
+.eduPlace {
+  margin: 2px 0px 30px 10px;
+}
+
+.eduPlace h5 {
+  font-size: 1.15rem;
+}
+
+.work-timeline {
+  margin-top: 20px;
+}
+
+.clear {
+  clear: both;
+}

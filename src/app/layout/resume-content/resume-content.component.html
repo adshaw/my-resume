@@ -1,0 +1,53 @@
+<div class="container-fluid resume-content">
+  <div class="container resume-profile">
+    <h2 class="text-uppercase header-title">About Me</h2>
+    <p>
+      Consultant in Capgemini with almost 5 years of experience in J2EE, HTML5, Bootstrap, Javascript, AngularJS, JAVA and Spring.
+      Decent skills in developing systems with expertise into development tools and languages. Good team player with excellent
+      interpersonal skills.
+    </p>
+  </div>
+  <div class="col-12 col-lg-6 pull-left expertise-chart border-section">
+    <div class="text-center text-uppercase">
+      <h2>Expertise</h2>
+    </div>
+    <!-- <app-resume-sidebar></app-resume-sidebar> -->
+    <app-column-chart [chartInputs]="expertise"></app-column-chart>
+  </div>
+  <div class="col-12 col-lg-6 pull-right">
+    <section class="my-education border-section">
+      <div class="text-center text-uppercase">
+        <h2>Education</h2>
+      </div>
+      <div class="container">
+        <div class="container education-info">
+          <div class="eduYear pull-left"><span>2011</span></div>
+          <div class="eduPlace pull-left">
+            <h5>Bachelor Of Science in Computers</h5>
+            <h6>Spicer Memorial College - Pune</h6>
+          </div>
+        </div>
+        <div class="container education-info clear">
+          <div class="eduYear pull-left"><span>2007</span></div>
+          <div class="eduPlace pull-left">
+            <h5>Indian School Certifcate - Class XII</h5>
+            <h6>S.A.I.E. - Kolkata</h6>
+          </div>
+        </div>
+        <div class="container education-info clear">
+          <div class="eduYear pull-left"><span>2005</span></div>
+          <div class="eduPlace pull-left">
+            <h5>C.B.S.E. - Class X</h5>
+            <h6>B.G.K.V. - Kolkata</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="col-12 col-lg-12 pull-right work-timeline">
+    <div class="text-center text-uppercase work-timeline-title">
+      <h2 class="header-title">Work Experience</h2>
+    </div>
+    <app-vertical-timeline></app-vertical-timeline>
+  </div>
+</div>
