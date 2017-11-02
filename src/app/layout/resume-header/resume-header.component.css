@@ -2,14 +2,15 @@
   color: #fff;
   background-color: #3c3d41;
   min-height: 100px;
-  padding: 45px 25px 10px;
+  padding: 35px 25px 10px;
   text-transform: uppercase;
 }
 
 .header-info {
-  margin: 10px auto;
+  margin: 0px auto;
   text-align: center;
-  border: 1px solid #f7f7f7;
+  padding: 0
+  /* border: 1px solid #f7f7f7; */
 }
 
 .header-info h1 {
@@ -28,10 +29,18 @@
   font-size: 3rem;
 }
 
-.header-container p {
+.header-container p.lead {
   color: #f6f6f6;
   font-size: 1rem;
   margin: 10px auto;
+  letter-spacing: 3px;
+}
+
+.personal-info span{
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: none;
+  margin-right: 10px;
 }
 
 .social {

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeHeaderComponent implements OnInit {
 
+  private removeSocial = false;
+
   constructor() { }
 
   ngOnInit() {

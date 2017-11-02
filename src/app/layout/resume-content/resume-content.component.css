@@ -1,9 +1,6 @@
 h2.header-title {
-  background-color: black;
-  color: white;
-  height: 50px;
-  font-size: 22px;
-  padding-top: 12px;
+  position: relative;
+  left: 0;
 }
 
 .resume-content {
@@ -18,36 +15,23 @@ h2.header-title {
 .border-section {
   height: 342px;
   margin-top: 56px;
-  border: 2px solid #000;
+  border: 2px solid #3c3d41;
 }
 
 .expertise-chart h2 {
-  position: absolute;
+  width: 70%;
   top: -7%;
-  left: 26%;
-  height: 50px;
-  background-color: black;
-  width: 48%;
-  color: white;
-  padding-top: 13px;
-  font-size: 22px;
-  z-index: 21;
+  left: 15%;
 }
 
 .my-education {
-  padding-top: 55px;
+  padding-top: 35px;
 }
 
 .my-education h2 {
-  position: absolute;
-  top: 8%;
-  left: 33%;
-  height: 50px;
-  background-color: black;
-  width: 35%;
-  color: white;
-  padding-top: 13px;
-  font-size: 22px;
+  width: 70%;
+  top: 9%;
+  left: 15%;
 }
 
 .eduYear span {
@@ -63,7 +47,7 @@ h2.header-title {
 }
 
 .work-timeline {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .clear {

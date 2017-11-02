@@ -1,0 +1,18 @@
+<div class="progress-wrapper">
+  <div class="current" [ngStyle]="getOverlayStyle()">{{name}}</div>
+
+  <round-progress
+  [current]="value"
+  [max]="max"
+  [color]="color"
+  [background]="background"
+  [radius]="radius"
+  [stroke]="stroke"
+  [semicircle]="semicircle"
+  [rounded]="rounded"
+  [clockwise]="clockwise"
+  [responsive]="responsive"
+  [duration]="duration"
+  [animation]="animation"
+  [animationDelay]="animationDelay"></round-progress>
+</div>

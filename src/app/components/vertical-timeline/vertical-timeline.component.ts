@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
+import { timeLineObj } from '../../../assets/workExperience';
 
 declare let $: any;
 
@@ -10,6 +11,7 @@ declare let $: any;
 })
 export class VerticalTimelineComponent implements OnInit {
   private navIsFixed;
+  private timeLineObj = timeLineObj;
 
   constructor( @Inject(DOCUMENT) private document: Document) {
 
@@ -25,9 +27,6 @@ export class VerticalTimelineComponent implements OnInit {
   //     this.navIsFixed = false;
   //   }
   // }
-
   ngOnInit() {
-
   }
-
 }

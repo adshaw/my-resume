@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
+    "angular-svg-round-progressbar": "^1.1.0",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "ng2-scrollreveal": "^1.0.1",
