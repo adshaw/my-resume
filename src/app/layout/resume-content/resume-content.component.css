@@ -13,7 +13,7 @@ h2.header-title {
 }
 
 .border-section {
-  height: 342px;
+  height: 360px;
   margin-top: 56px;
   border: 2px solid #3c3d41;
 }
@@ -52,4 +52,13 @@ h2.header-title {
 
 .clear {
   clear: both;
+}
+
+.skillCloud {
+  margin-left: -12px;
+}
+
+.skillCloud img{
+  width: 105%;
+  height: 314px;
 }

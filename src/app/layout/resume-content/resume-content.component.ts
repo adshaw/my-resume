@@ -11,6 +11,8 @@ export class ResumeContentComponent implements OnInit {
 
   constructor() { }
 
+  private removeWordCloud = false;
+
   private entries = [
 
     { label: 'AngularJs', url: 'https://angularjs.org/', target: '_top' },
@@ -97,7 +99,7 @@ export class ResumeContentComponent implements OnInit {
 
   ngOnInit() {
     setTimeout(() => {
-      $('#svgCloud').svg3DTagCloud(this.settings);
+      // $('#svgCloud').svg3DTagCloud(this.settings);
     }, 1000);
   }
 

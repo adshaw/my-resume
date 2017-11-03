@@ -23,7 +23,7 @@ export class CircleProgressComponent implements OnInit {
   responsive: boolean = false;
   clockwise: boolean = true;
   color: string = 'steelblue';
-  background: string = '#eaeaea';
+  background: string = 'darkgray';
   duration: number = 800;
   animation: string = 'easeOutCubic';
   animationDelay: number = 0;
