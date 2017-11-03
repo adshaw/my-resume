@@ -11,7 +11,7 @@ declare let $: any;
 })
 export class VerticalTimelineComponent implements OnInit {
   private navIsFixed;
-  private timeLineObj = timeLineObj;
+  public timeLineObj = timeLineObj;
 
   constructor( @Inject(DOCUMENT) private document: Document) {
 

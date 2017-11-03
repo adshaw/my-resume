@@ -13,7 +13,7 @@ export class ColumnChartComponent implements OnInit {
   private columnWidth;
   private columnHeight;
   private chartHeight;
-  private columnObj = [];
+  public columnObj = [];
 
   constructor(private elRef: ElementRef) { }
 

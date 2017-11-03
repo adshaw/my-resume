@@ -9,7 +9,7 @@ import { ColumnChartComponent } from '../../components/column-chart/column-chart
 })
 export class ResumeSidebarComponent implements OnInit {
 
-  
+
 
   constructor() { }
 

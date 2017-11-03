@@ -72,7 +72,7 @@ export class ResumeContentComponent implements OnInit {
 
   };
 
-  private expertise = [
+  public expertise = [
     {
       'name': 'Javascript',
       'skill': 70
