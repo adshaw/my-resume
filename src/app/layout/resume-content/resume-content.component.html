@@ -1,64 +1,80 @@
 <div class="container-fluid resume-content">
-  <div class="container resume-profile">
-    <h2 class="text-uppercase header-title my-header">About Me</h2>
-    <p>
-      With 6+ years of hands-on experience efficiently coding websites and applications using modern HTML, CSS, and JavaScript, I am confident I will be an excellent addition to your organization.
-      Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine. I actively seek out new technologies and stay up-to-date on industry trends and advancements.
-      Continued education has allowed me to stay ahead of the curve and deliver exceptional work to each employer I’ve worked for.
-    </p>
-  </div>
-  <div class="col-12 col-lg-6 pull-left expertise-chart border-section">
-    <div class="text-center text-uppercase">
-      <h2 class="my-header">Expertise</h2>
-    </div>
-    <!-- <app-resume-sidebar></app-resume-sidebar> -->
-    <app-column-chart [chartInputs]="expertise"></app-column-chart>
-  </div>
-  <div class="col-12 col-lg-6 pull-right">
-    <section class="my-education border-section">
-      <div class="text-center text-uppercase">
-        <h2 class="my-header">Skills</h2>
+  <div class="container-fluid main-content shadow">
+    <app-resume-header></app-resume-header>
+    <div class="content">
+      <div class="container resume-profile">
+        <h2 class="text-uppercase header-title my-header">About Me</h2>
+        <p>
+          Having 6+ years of hands-on experience coding websites and applications using modern HTML, CSS, and JavaScript. Confident
+          of building state-of-the-art, easy to use, user-friendly websites and applications. Actively seek out new technologies
+          and stay up-to-date on industry trends and advancements, which has allowed me to stay ahead of the curve and deliver
+          exceptional work.
+        </p>
       </div>
-      <!-- <div class="container">
-        <div class="container education-info">
-          <div class="eduYear pull-left">
-            <span>2011</span>
-          </div>
-          <div class="eduPlace pull-left">
-            <h5>Bachelor Of Science in Computers</h5>
-            <h6>Spicer Memorial College - Pune</h6>
-          </div>
-        </div>
-        <div class="container education-info clear">
-          <div class="eduYear pull-left">
-            <span>2007</span>
-          </div>
-          <div class="eduPlace pull-left">
-            <h5>Indian School Certifcate - Class XII</h5>
-            <h6>S.A.I.E. - Kolkata</h6>
-          </div>
-        </div>
-        <div class="container education-info clear">
-          <div class="eduYear pull-left">
-            <span>2005</span>
-          </div>
-          <div class="eduPlace pull-left">
-            <h5>C.B.S.E. - Class X</h5>
-            <h6>B.G.K.V. - Kolkata</h6>
-          </div>
-        </div>
-      </div> -->
-      <div class="container skillCloud" >
-        <img src="../../assets/img/wordcloud.png"/>
+      <div class="container resume-profile horizontalTimeline">
+        <h2 class="text-uppercase header-title my-header">Work Experience</h2>
+        <app-horizontal-timeline></app-horizontal-timeline>
       </div>
-    </section>
-  </div>
-  <div class="clear"></div>
-  <div class="col-12 col-lg-12 pull-right work-timeline">
-    <div class="text-center text-uppercase work-timeline-title">
-      <h2 class="header-title my-header">Work Experience</h2>
+      <div class="container">
+        <div class="col-12 col-lg-6 pull-left expertise-chart border-section">
+          <div class="text-center text-uppercase">
+            <h2 class="my-header">Expertise</h2>
+          </div>
+          <!-- <app-resume-sidebar></app-resume-sidebar> -->
+          <app-column-chart [chartInputs]="expertise"></app-column-chart>
+        </div>
+        <div class="col-12 col-lg-6 pull-right" style="padding-right:0;">
+          <section class="my-education border-section">
+            <div class="text-center text-uppercase">
+              <h2 class="my-header">Skills</h2>
+            </div>
+            <!-- <div class="container">
+                      <div class="container education-info">
+                        <div class="eduYear pull-left">
+                          <span>2011</span>
+                        </div>
+                        <div class="eduPlace pull-left">
+                          <h5>Bachelor Of Science in Computers</h5>
+                          <h6>Spicer Memorial College - Pune</h6>
+                        </div>
+                      </div>
+                      <div class="container education-info clear">
+                        <div class="eduYear pull-left">
+                          <span>2007</span>
+                        </div>
+                        <div class="eduPlace pull-left">
+                          <h5>Indian School Certifcate - Class XII</h5>
+                          <h6>S.A.I.E. - Kolkata</h6>
+                        </div>
+                      </div>
+                      <div class="container education-info clear">
+                        <div class="eduYear pull-left">
+                          <span>2005</span>
+                        </div>
+                        <div class="eduPlace pull-left">
+                          <h5>C.B.S.E. - Class X</h5>
+                          <h6>B.G.K.V. - Kolkata</h6>
+                        </div>
+                      </div>
+                    </div> -->
+            <div class="container skillCloud" id="skillCloud">
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="clear"></div>
     </div>
-    <app-vertical-timeline></app-vertical-timeline>
+
   </div>
-  <div class="clear"></div>
+  <!-- <div class="container-fluid main-content shadow">
+    <div class="content">
+      <div class="col-12 col-lg-12 pull-right work-timeline">
+        <div class="text-center text-uppercase work-timeline-title">
+          <h2 class="header-title my-header">Work Experience</h2>
+        </div>
+        <app-vertical-timeline></app-vertical-timeline>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div> -->
 </div>

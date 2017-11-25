@@ -27,7 +27,7 @@
       "../node_modules/tether/dist/js/tether.min.js",
       "../node_modules/bootstrap/dist/js/bootstrap.min.js",
       "../node_modules/scrollreveal/dist/scrollreveal.js",
-      "./assets/js/word-cloud.js"
+      "./assets/js/wordcloud2.js"
     ],
     "environmentSource": "environments/environment.ts",
     "environments": {

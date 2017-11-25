@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 declare let $: any;
+declare let WordCloud: any;
 
 @Component({
   selector: 'app-resume-content',
@@ -97,10 +98,24 @@ export class ResumeContentComponent implements OnInit {
     }
   ];
 
+  private list = [['Web Technologies', 20], ['HTML', 16], ['AngularJs', 12], ['CSS', 14], ['JavaScript', 13],
+  ['Document Object Model', 12], ['GitHub', 10], ['Bootstrap', 12], ['XMLHttpRequest', 8],
+  ['LESS', 12], ['JSON.parse()', 9], ['Typescript', 9], ['transition', 9], ['animation', 9], ['Responsive', 7], ['@font-face', 7], ['Highcharts', 7]];
+
+  private options = {
+    list: this.list,
+    gridSize: 18,
+    weightFactor: 3,
+    fontFamily: 'Roboto, cursive, sans-serif',
+    color: 'steelblue',
+    click: function (item) {
+      // alert(item[0] + ': ' + item[1]);
+    },
+    backgroundColor: '#efefef'
+  };
+
   ngOnInit() {
-    setTimeout(() => {
-      // $('#svgCloud').svg3DTagCloud(this.settings);
-    }, 1000);
+    WordCloud(document.getElementById('skillCloud'), this.options);
   }
 
 }

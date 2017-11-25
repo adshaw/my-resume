@@ -31,13 +31,11 @@ export class ColumnChartComponent implements OnInit {
       obj['height'] = this.chartHeight * (element.skill / 100);
       this.columnObj.push(obj);
     });
-    console.log('obj', this.columnObj);
     return this.columnObj;
   }
 
   updateHeightAndWidth(index, object) {
     // console.log('index', index);
-    console.log('object', object);
     // console.log(this);
     // console.log('elements', this.chartHeight);
   }

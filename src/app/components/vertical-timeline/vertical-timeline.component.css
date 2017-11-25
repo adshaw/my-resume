@@ -83,7 +83,7 @@
 }
 
 .cd-timeline-img.cd-movie {
-  background: burlywood;
+  background: antiquewhite;
 }
 
 .cd-timeline-img.cd-location {
@@ -92,8 +92,8 @@
 
 .cd-timeline-img .cd-year{
   position: relative;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: bolder;
   top: 10px;
   left: 6px;
 }
@@ -177,10 +177,10 @@
   position: relative;
   margin-left: 60px;
   margin-bottom: 20px;
-  background: #f0eee2;
+  background: #efefef;
   border-radius: 0.25em;
   /* padding: 1em; */
-  box-shadow: 0 3px 0 #f0eee2;
+  box-shadow: 0 3px 0 #efefef;
 }
 
 .cd-timeline-content:after {
