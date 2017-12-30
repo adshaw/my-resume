@@ -77,8 +77,8 @@ export class ResumeContentComponent implements OnInit {
 
   public expertise = [
     {
-      'name': 'Javascript',
-      'skill': 70
+      'name': 'Javascript/Jquery',
+      'skill': 85
     },
     {
       'name': 'AngularJS',
@@ -86,7 +86,7 @@ export class ResumeContentComponent implements OnInit {
     },
     {
       'name': 'Angular',
-      'skill': 70
+      'skill': 75
     },
     {
       'name': 'HTML/CSS',
@@ -94,13 +94,18 @@ export class ResumeContentComponent implements OnInit {
     },
     {
       'name': 'JAVA',
-      'skill': 40
+      'skill': 50
+    },
+    {
+      'name': 'Bootstrap',
+      'skill': 80
     }
   ];
 
   private list = [['Web Technologies', 20], ['HTML', 16], ['AngularJs', 12], ['CSS', 14], ['JavaScript', 13],
   ['Document Object Model', 12], ['GitHub', 10], ['Bootstrap', 12], ['XMLHttpRequest', 8],
-  ['LESS', 12], ['JSON.parse()', 9], ['Typescript', 9], ['transition', 9], ['animation', 9], ['Responsive', 7], ['@font-face', 7], ['Highcharts', 7]];
+  ['LESS', 12], ['JSON.parse()', 9], ['Typescript', 9], ['Transition', 9], ['Animation', 9], ['Responsive', 7], ['@font-face', 7],
+  ['Highcharts', 7], ['AG Grid', 7], ['J2EE', 9], ['Jquery Plugins', 6]];
 
   private options = {
     list: this.list,

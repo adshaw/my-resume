@@ -13,17 +13,19 @@
       </div>
       <div class="container resume-profile horizontalTimeline">
         <h2 class="text-uppercase header-title my-header">Work Experience</h2>
-        <app-horizontal-timeline></app-horizontal-timeline>
+        <div class="container">
+          <app-horizontal-timeline></app-horizontal-timeline>
+        </div>
       </div>
       <div class="container">
-        <div class="col-12 col-lg-6 pull-left expertise-chart border-section">
+        <div class="col-6 col-lg-6 pull-left expertise-chart border-section">
           <div class="text-center text-uppercase">
             <h2 class="my-header">Expertise</h2>
           </div>
           <!-- <app-resume-sidebar></app-resume-sidebar> -->
           <app-column-chart [chartInputs]="expertise"></app-column-chart>
         </div>
-        <div class="col-12 col-lg-6 pull-right" style="padding-right:0;">
+        <div class="col-6 col-lg-6 pull-right" style="padding-right:0;">
           <section class="my-education border-section">
             <div class="text-center text-uppercase">
               <h2 class="my-header">Skills</h2>
