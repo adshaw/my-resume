@@ -31,16 +31,16 @@
 
 .header-container p.lead {
   color: #f6f6f6;
-  font-size: 1rem;
+  font-size: 1em;
   margin: 10px auto;
   letter-spacing: 3px;
 }
 
 .personal-info span{
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 2px;
   text-transform: none;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .social {

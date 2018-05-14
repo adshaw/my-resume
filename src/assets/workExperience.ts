@@ -23,7 +23,7 @@ export const timeLineObj = [
       },
       {
         'name': 'Java',
-        'value': 10
+        'value': 20
       }
     ]
   },
@@ -39,19 +39,19 @@ export const timeLineObj = [
     'skills': [
       {
         'name': 'Javascript',
-        'value': 30
-      },
-      {
-        'name': 'HTML/CSS',
-        'value': 30
-      },
-      {
-        'name': 'Angular 1.x',
         'value': 40
       },
       {
-        'name': 'Bootstrap',
+        'name': 'HTML/CSS',
+        'value': 35
+      },
+      {
+        'name': 'Angular 1.x',
         'value': 30
+      },
+      {
+        'name': 'Bootstrap',
+        'value': 35
       }
     ]
   },
@@ -83,60 +83,61 @@ export const timeLineObj = [
   //   ]
   // },
   {
-    'year': '2014',
-    'headerTitle': 'TCS - Singapore Airlines',
-    'workList': [
-      'Involved in developing user interface using HTML, CSS, Jquery, Javascript, AngularJS',
-      'Implemented Server side business logic in Java/J2EE and Spring',
-      'Work closely with user interface developers in integrating web components with business logics'
-    ],
-    'skills': [
-      {
-        'name': 'Javascript',
-        'value': 30
-      },
-      {
-        'name': 'HTML/CSS',
-        'value': 45
-      },
-      {
-        'name': 'Angular 1.x',
-        'value': 30
-      },
-      {
-        'name': 'Spring',
-        'value': 20
-      }
-    ]
-  },
-  {
     'year': '2011',
-    'headerTitle': 'TCS - Internal',
+    'headerTitle': 'TATA Consultancy Services',
     'workList': [
-      'Involved with Requirement gathering process and developing user interface using HTML, CSS, Jquery/Javascript',
-      'Implemented Server side business logic in Java/J2EE and Android',
+      'Involved with Requirement gathering process and developing user interface using HTML5, CSS3, Jquery/Javascript and AngularJS',
+      'Implemented Server side business logic in Java/J2EE and Spring',
       'Worked closely with user interface developers in integrating web components with business logics',
       'Worked with AR(Augmented Reality) and QR(Quick Response) for the Android module'
     ],
     'skills': [
       {
         'name': 'Javascript',
-        'value': 30
+        'value': 20
       },
       {
         'name': 'HTML/CSS',
-        'value': 30
-      },
-      {
-        'name': 'Android',
         'value': 20
       },
       {
-        'name': 'Java',
-        'value': 20
+        'name': 'Angular 1.x',
+        'value': 15
+      },
+      {
+        'name': 'Spring',
+        'value': 15
       }
     ]
   },
+  // {
+  //   'year': '2011',
+  //   'headerTitle': 'TCS - Internal',
+  //   'workList': [
+  //     'Involved with Requirement gathering process and developing user interface using HTML, CSS, Jquery/Javascript',
+  //     'Implemented Server side business logic in Java/J2EE and Android',
+  //     'Worked closely with user interface developers in integrating web components with business logics',
+  //     'Worked with AR(Augmented Reality) and QR(Quick Response) for the Android module'
+  //   ],
+  //   'skills': [
+  //     {
+  //       'name': 'Javascript',
+  //       'value': 30
+  //     },
+  //     {
+  //       'name': 'HTML/CSS',
+  //       'value': 30
+  //     },
+  //     {
+  //       'name': 'Android',
+  //       'value': 20
+  //     },
+  //     {
+  //       'name': 'Java',
+  //       'value': 20
+  //     }
+  //   ]
+  // },
   // {
   //   'year': '2011',
   //   'headerTitle': 'TCS - Incubator Project',

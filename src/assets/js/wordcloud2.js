@@ -204,7 +204,7 @@ if (!window.clearImmediate) {
       maxRotation: Math.PI / 2,
       rotationSteps: 0,
 
-      shuffle: true,
+      shuffle: false,
       rotateRatio: 0.1,
 
       shape: 'circle',

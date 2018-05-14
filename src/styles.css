@@ -10,6 +10,7 @@
   background-repeat: repeat;
   overflow: auto;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
 }
 
 .main-content {
@@ -23,6 +24,7 @@
 
 .shadow {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  /* margin-bottom: 30px; */
 }
 
 .my-header {

@@ -1,8 +1,8 @@
 <div class="container-fluid resume-content">
-  <div class="container-fluid main-content shadow">
+  <div class="container-fluid main-content">
     <app-resume-header></app-resume-header>
     <div class="content">
-      <div class="container resume-profile">
+      <div class="container-fluid resume-profile">
         <h2 class="text-uppercase header-title my-header">About Me</h2>
         <p>
           Having 6+ years of hands-on experience coding websites and applications using modern HTML, CSS, and JavaScript. Confident
@@ -11,13 +11,13 @@
           exceptional work.
         </p>
       </div>
-      <div class="container resume-profile horizontalTimeline">
-        <h2 class="text-uppercase header-title my-header">Work Experience</h2>
+      <div class="container-fluid resume-profile horizontalTimeline">
+        <h2 class="text-uppercase header-title my-header">Timeline</h2>
         <div class="container">
           <app-horizontal-timeline></app-horizontal-timeline>
         </div>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="col-6 col-lg-6 pull-left expertise-chart border-section">
           <div class="text-center text-uppercase">
             <h2 class="my-header">Expertise</h2>
@@ -66,17 +66,22 @@
       </div>
       <div class="clear"></div>
     </div>
-
-  </div>
-  <!-- <div class="container-fluid main-content shadow">
     <div class="content">
-      <div class="col-12 col-lg-12 pull-right work-timeline">
-        <div class="text-center text-uppercase work-timeline-title">
-          <h2 class="header-title my-header">Work Experience</h2>
+      <div class="container-fluid main-content">
+        <div class="">
+          <div class="col-12 col-lg-12 pull-right work-timeline">
+            <div class="text-center text-uppercase work-timeline-title">
+              <h2 class="header-title my-header">Work Experience</h2>
+            </div>
+            <app-vertical-timeline></app-vertical-timeline>
+          </div>
+          <div class="clear"></div>
         </div>
-        <app-vertical-timeline></app-vertical-timeline>
       </div>
-      <div class="clear"></div>
     </div>
+  </div>
+  <!-- <div class="container-fluid main-content">
+
   </div> -->
+
 </div>
